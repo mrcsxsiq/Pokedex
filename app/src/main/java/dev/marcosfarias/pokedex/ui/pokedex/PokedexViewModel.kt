@@ -10,15 +10,15 @@ import retrofit2.Response
 import kotlin.concurrent.thread
 
 class PokedexViewModel(
-    private val pokemonDAO: PokemonDAO,
-    private val pokemonService: PokemonService
+    val pokemonDAO: PokemonDAO,
+    val pokemonService: PokemonService
 ) : ViewModel() {
 
     init {
         initNetworkRequest()
     }
 
-    private fun initNetworkRequest() {
+    fun initNetworkRequest() {
         val call = pokemonService.get()
 
         call.enqueue(object : Callback<List<Pokemon>?> {

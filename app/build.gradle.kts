@@ -87,4 +87,5 @@ dependencies {
     androidTestImplementation("io.mockk:mockk-agent-jvm:1.12.4")
     testImplementation("io.mockk:mockk:1.12.4")
     testImplementation("io.mockk:mockk-agent-jvm:1.12.4")
+    testImplementation("io.qameta.allure:allure-junit4:2.25.0")
 }
