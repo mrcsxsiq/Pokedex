@@ -7,6 +7,7 @@ import dev.marcosfarias.pokedex.model.Pokemon
 import dev.marcosfarias.pokedex.repository.PokemonService
 import dev.marcosfarias.pokedex.ui.pokedex.PokedexViewModel
 import io.mockk.*
+import junit.framework.TestCase.assertEquals
 import org.junit.*
 
 class PokedexViewModelTest {
@@ -43,6 +44,13 @@ class PokedexViewModelTest {
         // THEN
         Assert.assertEquals(expected, result.value!!)
     }
+
+    @Test
+    fun `check viewModel initialization`() {
+        assertEquals(dao, viewModel.pokemonDAO)
+        assertEquals(service, viewModel.pokemonService)
+    }
+
 
     companion object {
         @JvmStatic

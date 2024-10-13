@@ -1,10 +1,13 @@
 package dev.marcosfarias.pokedex
 
 import androidx.arch.core.executor.testing.InstantTaskExecutorRule
+import androidx.lifecycle.Observer
 import dev.marcosfarias.pokedex.model.Generation
 import dev.marcosfarias.pokedex.ui.generation.GenerationViewModel
+import io.mockk.mockk
 import io.mockk.spyk
 import io.mockk.unmockkAll
+import io.mockk.verify
 import org.junit.*
 
 class GenerationViewModelTest {
@@ -41,6 +44,32 @@ class GenerationViewModelTest {
         val resultTransformed = result.value!!.map { it.toString() }
         Assert.assertEquals(expectedTransformed, resultTransformed)
     }
+
+    @Test
+    fun `check returns non-null LiveData`() {
+        // Act
+        val liveDataResult = viewModel.getListGeneration()
+
+        // Assert
+        assert(liveDataResult.value != null)
+    }
+
+    @Test
+    fun `check updates LiveData`() {
+        // Arrange
+        val observer = mockk<Observer<List<Generation>>>(relaxed = true)
+        viewModel.getListGeneration().observeForever(observer)
+
+        // Act
+        viewModel.getListGeneration()
+
+        // Assert
+        verify { observer.onChanged(any()) }
+
+        // Clean up
+        viewModel.getListGeneration().removeObserver(observer)
+    }
+
 
     companion object {
         @JvmStatic
