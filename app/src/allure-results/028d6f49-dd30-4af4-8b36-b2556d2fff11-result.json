@@ -1,0 +1,105 @@
+{
+    "name": "movesScreenTest",
+    "start": 1728930460959,
+    "stop": 1728930472018,
+    "stage": "finished",
+    "description": null,
+    "descriptionHtml": null,
+    "status": "passed",
+    "statusDetails": null,
+    "steps": [
+        {
+            "name": "Check menu elements content",
+            "start": 1728930464867,
+            "stop": 1728930465032,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+                {
+                    "source": "a410d5d5-a0b4-42e0-b3c3-fe79642d76db-attachment.png",
+                    "name": "MovesScreenTest_step_1.png",
+                    "type": "image/png"
+                }
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Swipe",
+            "start": 1728930465033,
+            "stop": 1728930469231,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+                {
+                    "source": "9ff60287-2710-433e-8516-26c42327b2a2-attachment.png",
+                    "name": "MovesScreenTest_step_2.png",
+                    "type": "image/png"
+                }
+            ],
+            "parameters": [
+            ]
+        }
+    ],
+    "attachments": [
+        {
+            "source": "efc5e584-aa18-4e66-b31c-baf44e0c5b9a-attachment.txt",
+            "name": "TestLogcat.txt",
+            "type": "text/plain"
+        },
+        {
+            "source": "f5005e3e-35c2-4de1-8760-a6bd2e9f1b59-attachment.mp4",
+            "name": "Video_MovesScreenTest.mp4",
+            "type": "video/mp4"
+        }
+    ],
+    "parameters": [
+    ],
+    "uuid": "028d6f49-dd30-4af4-8b36-b2556d2fff11",
+    "historyId": "2e8c62d3a543698b9dd1afd42dc1435e",
+    "fullName": "dev.marcosfarias.pokedex.MovesScreenTest.movesScreenTest",
+    "labels": [
+        {
+            "name": "package",
+            "value": "dev.marcosfarias.pokedex"
+        },
+        {
+            "name": "testClass",
+            "value": "dev.marcosfarias.pokedex.MovesScreenTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "movesScreenTest"
+        },
+        {
+            "name": "suite",
+            "value": "dev.marcosfarias.pokedex.MovesScreenTest"
+        },
+        {
+            "name": "host",
+            "value": "localhost"
+        },
+        {
+            "name": "thread",
+            "value": "Instr: com.kaspersky.kaspresso.runner.KaspressoRunner(45)"
+        },
+        {
+            "name": "framework",
+            "value": "junit4"
+        },
+        {
+            "name": "language",
+            "value": "kotlin"
+        }
+    ]
+}

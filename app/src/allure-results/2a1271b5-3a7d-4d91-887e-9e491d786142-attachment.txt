@@ -1,0 +1,90 @@
+--------- beginning of main
+10-14 21:27:32.819  3036  3056 I KASPRESSO: ___________________________________________________________________________
+10-14 21:27:32.820  3036  3056 I KASPRESSO: Logcat buffer may be dumped from 10-14 21:27:32.819
+10-14 21:27:32.852  3036  3056 I KASPRESSO: Starting video recording: Video_MovesScreenTest.mp4
+10-14 21:27:32.852  3036  3056 I KASPRESSO: Waiting for 3000 ms
+10-14 21:27:32.866  3036  3076 D KASPRESSO: Display resolution: 1080x2337; supported codec resolution: 2048x2048
+10-14 21:27:32.866  3036  3076 D KASPRESSO: Starting video recording with resolution 1080x2048
+10-14 21:27:35.854  3036  3056 I KASPRESSO: ---------------------------------------------------------------------------
+10-14 21:27:35.855  3036  3056 I KASPRESSO: BEFORE TEST SECTION
+10-14 21:27:35.855  3036  3056 I KASPRESSO: ---------------------------------------------------------------------------
+10-14 21:27:35.855  3036  3056 I KASPRESSO: ---------------------------------------------------------------------------
+10-14 21:27:35.855  3036  3056 I KASPRESSO: TEST SECTION
+10-14 21:27:35.855  3036  3056 I KASPRESSO: ---------------------------------------------------------------------------
+10-14 21:27:35.881  3036  3036 I KASPRESSO: scroll RecyclerView to position: 1 on RecyclerView(id=recyclerViewMenu;)
+10-14 21:27:35.907  3036  3036 I KASPRESSO: single click on RelativeLayout(id=relativeLayoutBackground;)
+10-14 21:27:36.517  3036  3036 I KASPRESSO: Check (view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() to return non-empty rectangle) on AppCompatTextView(resource id not found;text=Pokedex;)
+10-14 21:27:36.518  3036  3036 I KASPRESSO: single click on FloatingActionButton(id=sd_main_fab;)
+10-14 21:27:37.031  3036  3036 I KASPRESSO: single click on AppCompatTextView(id=sd_label;text=All Gen;)
+10-14 21:27:37.495  3036  3056 I KASPRESSO: ___________________________________________________________________________
+10-14 21:27:37.495  3036  3056 I KASPRESSO: TEST STEP: "1. Check menu count" in MovesScreenTest
+10-14 21:27:37.496  3036  3036 I KASPRESSO: Get RecyclerView adapter size on RecyclerView(id=recyclerView;)
+10-14 21:27:37.497  3036  3056 I KASPRESSO: TEST STEP: "1. Check menu count" in MovesScreenTest SUCCEED. It took 0 minutes, 0 seconds and 1 millis. 
+10-14 21:27:37.497  3036  3056 I KASPRESSO: ___________________________________________________________________________
+10-14 21:27:37.617  3036  3056 I KASPRESSO: Screenshot saved to /data/user/0/dev.marcosfarias.pokedex/files/screenshots/dev.marcosfarias.pokedex.MovesScreenTest/checkingAllGenTest/MovesScreenTest_step_1.png
+10-14 21:27:37.617  3036  3056 I KASPRESSO: ___________________________________________________________________________
+10-14 21:27:37.617  3036  3056 I KASPRESSO: TEST STEP: "2. Check menu elements visibility" in MovesScreenTest
+10-14 21:27:37.619  3036  3036 I KASPRESSO: Get RecyclerView adapter size on RecyclerView(id=recyclerView;)
+10-14 21:27:37.619  3036  3036 I KASPRESSO: scroll RecyclerView to position: 0 on RecyclerView(id=recyclerView;)
+10-14 21:27:37.636  3036  3036 I KASPRESSO: Check (view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() to return non-empty rectangle) on AppCompatTextView(id=textViewTitle;text=Generation I;)
+10-14 21:27:37.637  3036  3036 I KASPRESSO: Check which has any text on AppCompatTextView(id=textViewTitle;text=Generation I;)
+10-14 21:27:37.638  3036  3036 I KASPRESSO: scroll RecyclerView to position: 1 on RecyclerView(id=recyclerView;)
+10-14 21:27:37.652  3036  3036 I KASPRESSO: Check (view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() to return non-empty rectangle) on AppCompatTextView(id=textViewTitle;text=Generation II;)
+10-14 21:27:37.654  3036  3036 I KASPRESSO: Check which has any text on AppCompatTextView(id=textViewTitle;text=Generation II;)
+10-14 21:27:37.655  3036  3036 I KASPRESSO: scroll RecyclerView to position: 2 on RecyclerView(id=recyclerView;)
+10-14 21:27:37.668  3036  3036 I KASPRESSO: Check (view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() to return non-empty rectangle) on AppCompatTextView(id=textViewTitle;text=Generation III;)
+10-14 21:27:37.669  3036  3036 I KASPRESSO: Check which has any text on AppCompatTextView(id=textViewTitle;text=Generation III;)
+10-14 21:27:37.670  3036  3036 I KASPRESSO: scroll RecyclerView to position: 3 on RecyclerView(id=recyclerView;)
+10-14 21:27:37.685  3036  3036 I KASPRESSO: Check (view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() to return non-empty rectangle) on AppCompatTextView(id=textViewTitle;text=Generation IV;)
+10-14 21:27:37.686  3036  3036 I KASPRESSO: Check which has any text on AppCompatTextView(id=textViewTitle;text=Generation IV;)
+10-14 21:27:37.688  3036  3036 I KASPRESSO: scroll RecyclerView to position: 4 on RecyclerView(id=recyclerView;)
+10-14 21:27:37.701  3036  3036 I KASPRESSO: Check (view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() to return non-empty rectangle) on AppCompatTextView(id=textViewTitle;text=Generation V;)
+10-14 21:27:37.703  3036  3036 I KASPRESSO: Check which has any text on AppCompatTextView(id=textViewTitle;text=Generation V;)
+10-14 21:27:37.704  3036  3036 I KASPRESSO: scroll RecyclerView to position: 5 on RecyclerView(id=recyclerView;)
+10-14 21:27:37.732  3036  3036 I KASPRESSO: Check (view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() to return non-empty rectangle) on AppCompatTextView(id=textViewTitle;text=Generation VI;)
+10-14 21:27:37.734  3036  3036 I KASPRESSO: Check which has any text on AppCompatTextView(id=textViewTitle;text=Generation VI;)
+10-14 21:27:37.735  3036  3036 I KASPRESSO: scroll RecyclerView to position: 6 on RecyclerView(id=recyclerView;)
+10-14 21:27:37.751  3036  3036 I KASPRESSO: Check (view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() to return non-empty rectangle) on AppCompatTextView(id=textViewTitle;text=Generation VII;)
+10-14 21:27:37.752  3036  3036 I KASPRESSO: Check which has any text on AppCompatTextView(id=textViewTitle;text=Generation VII;)
+10-14 21:27:37.752  3036  3036 I KASPRESSO: scroll RecyclerView to position: 7 on RecyclerView(id=recyclerView;)
+10-14 21:27:37.768  3036  3036 I KASPRESSO: Check (view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() to return non-empty rectangle) on AppCompatTextView(id=textViewTitle;text=Generation VIII;)
+10-14 21:27:37.770  3036  3036 I KASPRESSO: Check which has any text on AppCompatTextView(id=textViewTitle;text=Generation VIII;)
+10-14 21:27:37.770  3036  3056 I KASPRESSO: TEST STEP: "2. Check menu elements visibility" in MovesScreenTest SUCCEED. It took 0 minutes, 0 seconds and 153 millis. 
+10-14 21:27:37.770  3036  3056 I KASPRESSO: ___________________________________________________________________________
+10-14 21:27:37.894  3036  3056 I KASPRESSO: Screenshot saved to /data/user/0/dev.marcosfarias.pokedex/files/screenshots/dev.marcosfarias.pokedex.MovesScreenTest/checkingAllGenTest/MovesScreenTest_step_2.png
+10-14 21:27:37.894  3036  3056 I KASPRESSO: ___________________________________________________________________________
+10-14 21:27:37.894  3036  3056 I KASPRESSO: TEST STEP: "3. Check menu elements content" in MovesScreenTest
+10-14 21:27:37.895  3036  3036 I KASPRESSO: scroll RecyclerView to position: 0 on RecyclerView(id=recyclerView;)
+10-14 21:27:37.901  3036  3036 I KASPRESSO: Check (view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() to return non-empty rectangle) on AppCompatTextView(id=textViewTitle;text=Generation I;)
+10-14 21:27:37.902  3036  3036 I KASPRESSO: Check an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Generation I" on AppCompatTextView(id=textViewTitle;text=Generation I;)
+10-14 21:27:37.903  3036  3036 I KASPRESSO: scroll RecyclerView to position: 1 on RecyclerView(id=recyclerView;)
+10-14 21:27:37.917  3036  3036 I KASPRESSO: Check (view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() to return non-empty rectangle) on AppCompatTextView(id=textViewTitle;text=Generation II;)
+10-14 21:27:37.932  3036  3036 I KASPRESSO: Check an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Generation II" on AppCompatTextView(id=textViewTitle;text=Generation II;)
+10-14 21:27:37.934  3036  3036 I KASPRESSO: scroll RecyclerView to position: 2 on RecyclerView(id=recyclerView;)
+10-14 21:27:37.951  3036  3036 I KASPRESSO: Check (view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() to return non-empty rectangle) on AppCompatTextView(id=textViewTitle;text=Generation III;)
+10-14 21:27:37.952  3036  3036 I KASPRESSO: Check an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Generation III" on AppCompatTextView(id=textViewTitle;text=Generation III;)
+10-14 21:27:37.953  3036  3036 I KASPRESSO: scroll RecyclerView to position: 3 on RecyclerView(id=recyclerView;)
+10-14 21:27:37.968  3036  3036 I KASPRESSO: Check (view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() to return non-empty rectangle) on AppCompatTextView(id=textViewTitle;text=Generation IV;)
+10-14 21:27:37.969  3036  3036 I KASPRESSO: Check an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Generation IV" on AppCompatTextView(id=textViewTitle;text=Generation IV;)
+10-14 21:27:37.969  3036  3036 I KASPRESSO: scroll RecyclerView to position: 4 on RecyclerView(id=recyclerView;)
+10-14 21:27:37.984  3036  3036 I KASPRESSO: Check (view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() to return non-empty rectangle) on AppCompatTextView(id=textViewTitle;text=Generation V;)
+10-14 21:27:37.985  3036  3036 I KASPRESSO: Check an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Generation V" on AppCompatTextView(id=textViewTitle;text=Generation V;)
+10-14 21:27:37.986  3036  3036 I KASPRESSO: scroll RecyclerView to position: 5 on RecyclerView(id=recyclerView;)
+10-14 21:27:38.002  3036  3036 I KASPRESSO: Check (view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() to return non-empty rectangle) on AppCompatTextView(id=textViewTitle;text=Generation VI;)
+10-14 21:27:38.003  3036  3036 I KASPRESSO: Check an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Generation VI" on AppCompatTextView(id=textViewTitle;text=Generation VI;)
+10-14 21:27:38.004  3036  3036 I KASPRESSO: scroll RecyclerView to position: 6 on RecyclerView(id=recyclerView;)
+10-14 21:27:38.018  3036  3036 I KASPRESSO: Check (view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() to return non-empty rectangle) on AppCompatTextView(id=textViewTitle;text=Generation VII;)
+10-14 21:27:38.033  3036  3036 I KASPRESSO: Check an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Generation VII" on AppCompatTextView(id=textViewTitle;text=Generation VII;)
+10-14 21:27:38.034  3036  3036 I KASPRESSO: scroll RecyclerView to position: 7 on RecyclerView(id=recyclerView;)
+10-14 21:27:38.051  3036  3036 I KASPRESSO: Check (view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() to return non-empty rectangle) on AppCompatTextView(id=textViewTitle;text=Generation VIII;)
+10-14 21:27:38.052  3036  3036 I KASPRESSO: Check an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Generation VIII" on AppCompatTextView(id=textViewTitle;text=Generation VIII;)
+10-14 21:27:38.052  3036  3056 I KASPRESSO: TEST STEP: "3. Check menu elements content" in MovesScreenTest SUCCEED. It took 0 minutes, 0 seconds and 158 millis. 
+10-14 21:27:38.052  3036  3056 I KASPRESSO: ___________________________________________________________________________
+10-14 21:27:38.173  3036  3056 I KASPRESSO: Screenshot saved to /data/user/0/dev.marcosfarias.pokedex/files/screenshots/dev.marcosfarias.pokedex.MovesScreenTest/checkingAllGenTest/MovesScreenTest_step_3.png
+10-14 21:27:38.173  3036  3056 I KASPRESSO: ---------------------------------------------------------------------------
+10-14 21:27:38.173  3036  3056 I KASPRESSO: AFTER TEST SECTION
+10-14 21:27:38.173  3036  3056 I KASPRESSO: ---------------------------------------------------------------------------
+10-14 21:27:38.173  3036  3056 I KASPRESSO: ---------------------------------------------------------------------------
+10-14 21:27:38.173  3036  3056 I KASPRESSO: TEST PASSED
+10-14 21:27:38.173  3036  3056 I KASPRESSO: ---------------------------------------------------------------------------
+10-14 21:27:38.175  3036  3056 I KASPRESSO: Dump logcat buffer to /data/user/0/dev.marcosfarias.pokedex/files/logcat/dev.marcosfarias.pokedex.MovesScreenTest/checkingAllGenTest/TestLogcat.txt: logcat -b default -d -t "10-14 21:27:32.819" -s "KASPRESSO","KASPRESSO_TEST"

@@ -1,0 +1,147 @@
+{
+    "name": "checkingMainScreen",
+    "start": 1728929957470,
+    "stop": 1728929964384,
+    "stage": "finished",
+    "description": null,
+    "descriptionHtml": null,
+    "status": "passed",
+    "statusDetails": null,
+    "steps": [
+        {
+            "name": "Check menu count",
+            "start": 1728929960936,
+            "stop": 1728929961047,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+                {
+                    "source": "0a146d5b-05a8-4f10-9ba2-c3437f800733-attachment.png",
+                    "name": "MainScreenTest_step_1.png",
+                    "type": "image/png"
+                }
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Check menu elements visibility",
+            "start": 1728929961047,
+            "stop": 1728929961250,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+                {
+                    "source": "908ee450-b88b-4eb6-8cf4-fddf766f585b-attachment.png",
+                    "name": "MainScreenTest_step_2.png",
+                    "type": "image/png"
+                }
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Check menu elements content",
+            "start": 1728929961250,
+            "stop": 1728929961450,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+                {
+                    "source": "ebd87419-5e11-488b-b1f6-5bd3a5d09136-attachment.png",
+                    "name": "MainScreenTest_step_3.png",
+                    "type": "image/png"
+                }
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Check news elements content",
+            "start": 1728929961450,
+            "stop": 1728929961578,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+                {
+                    "source": "c207de9b-4db9-4c49-a110-883feab8b552-attachment.png",
+                    "name": "MainScreenTest_step_4.png",
+                    "type": "image/png"
+                }
+            ],
+            "parameters": [
+            ]
+        }
+    ],
+    "attachments": [
+        {
+            "source": "901917ac-96ac-4ada-95a7-c70749d19191-attachment.txt",
+            "name": "TestLogcat.txt",
+            "type": "text/plain"
+        },
+        {
+            "source": "ac5713b4-5162-43dd-bc79-38dcec69dbfe-attachment.mp4",
+            "name": "Video_MainScreenTest.mp4",
+            "type": "video/mp4"
+        }
+    ],
+    "parameters": [
+    ],
+    "uuid": "f7c7361f-6ea5-406d-83fa-015f1be8300b",
+    "historyId": "6320dc371b0527b64ce18b5288d8781f",
+    "fullName": "dev.marcosfarias.pokedex.MainScreenTest.checkingMainScreen",
+    "labels": [
+        {
+            "name": "package",
+            "value": "dev.marcosfarias.pokedex"
+        },
+        {
+            "name": "testClass",
+            "value": "dev.marcosfarias.pokedex.MainScreenTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "checkingMainScreen"
+        },
+        {
+            "name": "suite",
+            "value": "dev.marcosfarias.pokedex.MainScreenTest"
+        },
+        {
+            "name": "host",
+            "value": "localhost"
+        },
+        {
+            "name": "thread",
+            "value": "Instr: com.kaspersky.kaspresso.runner.KaspressoRunner(45)"
+        },
+        {
+            "name": "framework",
+            "value": "junit4"
+        },
+        {
+            "name": "language",
+            "value": "kotlin"
+        }
+    ]
+}

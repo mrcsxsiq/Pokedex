@@ -1,0 +1,126 @@
+{
+    "name": "checkingAllGenTest",
+    "start": 1728930452427,
+    "stop": 1728930460950,
+    "stage": "finished",
+    "description": null,
+    "descriptionHtml": null,
+    "status": "passed",
+    "statusDetails": null,
+    "steps": [
+        {
+            "name": "Check menu count",
+            "start": 1728930457495,
+            "stop": 1728930457617,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+                {
+                    "source": "002baad1-8631-4302-a2dd-8ebb720af7e5-attachment.png",
+                    "name": "MovesScreenTest_step_1.png",
+                    "type": "image/png"
+                }
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Check menu elements visibility",
+            "start": 1728930457617,
+            "stop": 1728930457894,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+                {
+                    "source": "dcc53c03-801f-41ef-ad5c-19752893036f-attachment.png",
+                    "name": "MovesScreenTest_step_2.png",
+                    "type": "image/png"
+                }
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Check menu elements content",
+            "start": 1728930457894,
+            "stop": 1728930458173,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+                {
+                    "source": "f5a9ee85-cbd4-450a-9085-df0da509ee9b-attachment.png",
+                    "name": "MovesScreenTest_step_3.png",
+                    "type": "image/png"
+                }
+            ],
+            "parameters": [
+            ]
+        }
+    ],
+    "attachments": [
+        {
+            "source": "2a1271b5-3a7d-4d91-887e-9e491d786142-attachment.txt",
+            "name": "TestLogcat.txt",
+            "type": "text/plain"
+        },
+        {
+            "source": "8fd54da1-4aa1-4f18-832c-2584c95ef214-attachment.mp4",
+            "name": "Video_MovesScreenTest.mp4",
+            "type": "video/mp4"
+        }
+    ],
+    "parameters": [
+    ],
+    "uuid": "1dc7526f-cc51-4254-85bd-79a6f1de312e",
+    "historyId": "3ab904af5920ffa7dd5b5a399569ffaf",
+    "fullName": "dev.marcosfarias.pokedex.MovesScreenTest.checkingAllGenTest",
+    "labels": [
+        {
+            "name": "package",
+            "value": "dev.marcosfarias.pokedex"
+        },
+        {
+            "name": "testClass",
+            "value": "dev.marcosfarias.pokedex.MovesScreenTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "checkingAllGenTest"
+        },
+        {
+            "name": "suite",
+            "value": "dev.marcosfarias.pokedex.MovesScreenTest"
+        },
+        {
+            "name": "host",
+            "value": "localhost"
+        },
+        {
+            "name": "thread",
+            "value": "Instr: com.kaspersky.kaspresso.runner.KaspressoRunner(45)"
+        },
+        {
+            "name": "framework",
+            "value": "junit4"
+        },
+        {
+            "name": "language",
+            "value": "kotlin"
+        }
+    ]
+}

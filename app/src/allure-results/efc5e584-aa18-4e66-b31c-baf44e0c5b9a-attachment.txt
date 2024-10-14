@@ -1,0 +1,50 @@
+--------- beginning of main
+10-14 21:27:41.284  3036  3056 I KASPRESSO: ___________________________________________________________________________
+10-14 21:27:41.290  3036  3056 I KASPRESSO: Logcat buffer may be dumped from 10-14 21:27:41.284
+10-14 21:27:41.308  3036  3056 I KASPRESSO: Starting video recording: Video_MovesScreenTest.mp4
+10-14 21:27:41.308  3036  3056 I KASPRESSO: Waiting for 3000 ms
+10-14 21:27:41.308  3036  3729 D KASPRESSO: Display resolution: 1080x2337; supported codec resolution: 2048x2048
+10-14 21:27:41.308  3036  3729 D KASPRESSO: Starting video recording with resolution 1080x2048
+10-14 21:27:44.309  3036  3056 I KASPRESSO: ---------------------------------------------------------------------------
+10-14 21:27:44.309  3036  3056 I KASPRESSO: BEFORE TEST SECTION
+10-14 21:27:44.309  3036  3056 I KASPRESSO: ---------------------------------------------------------------------------
+10-14 21:27:44.309  3036  3056 I KASPRESSO: ---------------------------------------------------------------------------
+10-14 21:27:44.309  3036  3056 I KASPRESSO: TEST SECTION
+10-14 21:27:44.309  3036  3056 I KASPRESSO: ---------------------------------------------------------------------------
+10-14 21:27:44.313  3036  3036 I KASPRESSO: scroll RecyclerView to position: 1 on RecyclerView(id=recyclerViewMenu;)
+10-14 21:27:44.339  3036  3036 I KASPRESSO: single click on RelativeLayout(id=relativeLayoutBackground;)
+10-14 21:27:44.867  3036  3036 I KASPRESSO: Check (view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() to return non-empty rectangle) on AppCompatTextView(resource id not found;text=Pokedex;)
+10-14 21:27:44.867  3036  3056 I KASPRESSO: ___________________________________________________________________________
+10-14 21:27:44.867  3036  3056 I KASPRESSO: TEST STEP: "1. Check menu elements content" in MovesScreenTest
+10-14 21:27:44.868  3036  3036 I KASPRESSO: scroll RecyclerView to position: 0 on RecyclerView(id=recyclerView;)
+10-14 21:27:44.884  3036  3036 I KASPRESSO: Check (view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() to return non-empty rectangle) on AppCompatTextView(id=textViewName;text=Bulbasaur;)
+10-14 21:27:44.885  3036  3036 I KASPRESSO: Check an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Bulbasaur" on AppCompatTextView(id=textViewName;text=Bulbasaur;)
+10-14 21:27:44.885  3036  3036 I KASPRESSO: scroll RecyclerView to position: 1 on RecyclerView(id=recyclerView;)
+10-14 21:27:44.900  3036  3036 I KASPRESSO: Check (view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() to return non-empty rectangle) on AppCompatTextView(id=textViewName;text=Ivysaur;)
+10-14 21:27:44.901  3036  3036 I KASPRESSO: Check an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Ivysaur" on AppCompatTextView(id=textViewName;text=Ivysaur;)
+10-14 21:27:44.901  3036  3036 I KASPRESSO: scroll RecyclerView to position: 2 on RecyclerView(id=recyclerView;)
+10-14 21:27:44.916  3036  3036 I KASPRESSO: Check (view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() to return non-empty rectangle) on AppCompatTextView(id=textViewName;text=Venusaur;)
+10-14 21:27:44.917  3036  3036 I KASPRESSO: Check an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Venusaur" on AppCompatTextView(id=textViewName;text=Venusaur;)
+10-14 21:27:44.917  3036  3056 I KASPRESSO: TEST STEP: "1. Check menu elements content" in MovesScreenTest SUCCEED. It took 0 minutes, 0 seconds and 50 millis. 
+10-14 21:27:44.917  3036  3056 I KASPRESSO: ___________________________________________________________________________
+10-14 21:27:45.032  3036  3056 I KASPRESSO: Screenshot saved to /data/user/0/dev.marcosfarias.pokedex/files/screenshots/dev.marcosfarias.pokedex.MovesScreenTest/movesScreenTest/MovesScreenTest_step_1.png
+10-14 21:27:45.033  3036  3056 I KASPRESSO: ___________________________________________________________________________
+10-14 21:27:45.033  3036  3056 I KASPRESSO: TEST STEP: "2. Swipe" in MovesScreenTest
+10-14 21:27:45.033  3036  3036 I KASPRESSO: Check (view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() to return non-empty rectangle) on RecyclerView(id=recyclerView;)
+10-14 21:27:49.058  3036  3036 I KASPRESSO: scroll RecyclerView to position: 20 on RecyclerView(id=recyclerView;)
+10-14 21:27:49.102  3036  3036 I KASPRESSO: Check (view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() to return non-empty rectangle) on AppCompatTextView(id=textViewName;text=Spearow;)
+10-14 21:27:49.104  3036  3036 I KASPRESSO: Check which has any text on AppCompatTextView(id=textViewName;text=Spearow;)
+10-14 21:27:49.105  3036  3036 I KASPRESSO: Check not an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Bulbasaur" on AppCompatTextView(id=textViewName;text=Spearow;)
+10-14 21:27:49.107  3036  3036 I KASPRESSO: Check not an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Ivysaur" on AppCompatTextView(id=textViewName;text=Spearow;)
+10-14 21:27:49.108  3036  3036 I KASPRESSO: Check not an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Venusaur" on AppCompatTextView(id=textViewName;text=Spearow;)
+10-14 21:27:49.109  3036  3036 I KASPRESSO: Check not an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Charmander" on AppCompatTextView(id=textViewName;text=Spearow;)
+10-14 21:27:49.109  3036  3056 I KASPRESSO: TEST STEP: "2. Swipe" in MovesScreenTest SUCCEED. It took 0 minutes, 4 seconds and 76 millis. 
+10-14 21:27:49.109  3036  3056 I KASPRESSO: ___________________________________________________________________________
+10-14 21:27:49.231  3036  3056 I KASPRESSO: Screenshot saved to /data/user/0/dev.marcosfarias.pokedex/files/screenshots/dev.marcosfarias.pokedex.MovesScreenTest/movesScreenTest/MovesScreenTest_step_2.png
+10-14 21:27:49.231  3036  3056 I KASPRESSO: ---------------------------------------------------------------------------
+10-14 21:27:49.231  3036  3056 I KASPRESSO: AFTER TEST SECTION
+10-14 21:27:49.231  3036  3056 I KASPRESSO: ---------------------------------------------------------------------------
+10-14 21:27:49.231  3036  3056 I KASPRESSO: ---------------------------------------------------------------------------
+10-14 21:27:49.231  3036  3056 I KASPRESSO: TEST PASSED
+10-14 21:27:49.231  3036  3056 I KASPRESSO: ---------------------------------------------------------------------------
+10-14 21:27:49.231  3036  3056 I KASPRESSO: Dump logcat buffer to /data/user/0/dev.marcosfarias.pokedex/files/logcat/dev.marcosfarias.pokedex.MovesScreenTest/movesScreenTest/TestLogcat.txt: logcat -b default -d -t "10-14 21:27:41.284" -s "KASPRESSO","KASPRESSO_TEST"

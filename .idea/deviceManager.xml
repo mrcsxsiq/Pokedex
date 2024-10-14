@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DeviceTable">
+    <option name="columnSorters">
+      <list>
+        <ColumnSorterState>
+          <option name="column" value="API" />
+          <option name="order" value="DESCENDING" />
+        </ColumnSorterState>
+        <ColumnSorterState>
+          <option name="column" value="Type" />
+          <option name="order" value="DESCENDING" />
+        </ColumnSorterState>
+      </list>
+    </option>
+  </component>
+</project>
